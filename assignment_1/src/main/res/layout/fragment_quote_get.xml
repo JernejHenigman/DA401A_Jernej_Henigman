@@ -1,0 +1,30 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.testapplications.QuoteGetFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:orientation="horizontal" >
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="152dp"
+        android:layout_height="67dp"
+        android:text="@string/button_send"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_x="93dp"
+        android:layout_y="96dp" />
+
+    <TextView
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text1"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_x="32dp"
+        android:layout_y="35dp" />
+
+
+</AbsoluteLayout>

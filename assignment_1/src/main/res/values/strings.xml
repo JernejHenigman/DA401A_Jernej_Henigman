@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quote App</string>
+    <string name="button_send">Get Quote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text1">Press to get quote of the day!</string>
+    <string name="text2">Quote of the day!</string>
+
+
+
+    <string-array name="quotes">
+        <item>Imagination is more important than knowledge. \n\n Albert Einstein</item>
+        <item>Science without religion is lame, religion without science is blind. \n\n Albert Einstein</item>
+        <item>Two things are infinite: the universe and human stupidity, and I m not sure about the universe. \n\n Albert Einstein</item>
+        <item>Anyone who has never made a mistake has never tried anything new. \n\n Albert Einstein</item>
+        <item>Try not to become a man of success, but rather try to become a man of value. \n\n Albert Einstein</item>
+        <item>Education is what remains after one has forgotten what one has learned in school. \n\n Albert Einstein</item>
+        <item>Gravitation cannot be held responsible for people falling in love. \n\n Albert Einstein</item>
+        <item>Reality is merely an illusion, albeit a very persistent one. \n\n Albert Einstein</item>
+        <item>There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle. \n\n Albert Einstein</item>
+        <item>Peace cannot be kept by force; it can only be achieved by understanding. \n\n Albert Einstein</item>
+    </string-array>
+
+</resources>

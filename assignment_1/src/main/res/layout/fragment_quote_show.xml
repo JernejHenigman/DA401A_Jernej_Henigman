@@ -1,0 +1,42 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="android.testapplications.QuoteShowFragment"
+    android:id="@+id/guote_show">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginRight = "25dip"
+        android:layout_marginLeft = "25dip"
+        android:gravity = "center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Quote"
+        android:layout_x="2dp"
+        android:layout_y="114dp"
+        android:layout_column="0" />
+
+
+    <TextView
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date"
+        android:id="@+id/textView4"
+        android:layout_column="16"
+        android:layout_x="93dp"
+        android:layout_y="45dp" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="83dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text2"
+        android:id="@+id/textView2"
+        android:layout_x="58dp"
+        android:layout_y="10dp"
+        android:textColor="#4b07ff"
+        android:textSize="32dp" />
+
+</AbsoluteLayout>
