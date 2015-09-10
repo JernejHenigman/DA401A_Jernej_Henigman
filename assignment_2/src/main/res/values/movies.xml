@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cops">
+        <!-- String --> <item>Cops</item>
+        <!-- String --> <item>2003</item>
+        <!-- String --> <item>A small Swedish village, Högboträsk, is so peaceful that crime is nonexistent. The police spend their shifts drinking coffee, eating hot dogs and chasing down runaway cows. This is all well and good for the village\'s own police, but the police management board wants to discontinue the local police force for lack of crime.</item>
+        <!-- int --> <item>@drawable/cops_fanart</item>
+        <!-- int --> <item>@drawable/cops_poster</item>
+    </array>
+
+    <array name="eat_sleep_die">
+        <item>Eat Sleep Die</item>
+        <item>2012</item>
+        <item>A young Eastern European immigrant working in Sweden is faced with a painful choice when she\'s laid off from her factory in the name of \"efficiencies.\" This film by Gabriela Pichler is possibly the most exciting and emotionally acute first feature to emerge from Sweden in well over a decade.</item>
+        <item>@drawable/eat_sleep_die_fanart</item>
+        <item>@drawable/eat_sleep_die_poster</item>
+    </array>
+
+    <array name="four_shades_of_brown">
+        <item>Four Shades of Brown</item>
+        <item>2004</item>
+        <item>Four stories, all related to fatherhood, are presented: A father tries to stimulate his son by bringing him to his workplace with disastrous consequences. Richard Brunn and his wife, who run a design hotel, suffer a strained relationship as his parents visit. An extended family is gathered to find out who will inherit the wealth of a famous jockey. A cooking class develops into a therapy session.</item>
+        <item>@drawable/four_shades_of_brown_fanart</item>
+        <item>@drawable/four_shades_of_brown_poster</item>
+    </array>
+
+    <array name="haxan">
+        <item>Häxan: Witchcraft Through the Ages</item>
+        <item>1922</item>
+        <item>Grave robbing, torture, possessed nuns, and a satanic Sabbath: Benjamin Christensen\'s legendary film uses a series of dramatic vignettes to explore the scientific hypothesis that the witches of the Middle Ages suffered the same hysteria as turn-of-the-century psychiatric patients. But the film itself is far from serious-- instead it\'s a witches\' brew of the scary, gross, and darkly humorous.</item>
+        <item>@drawable/haxan_fanart</item>
+        <item>@drawable/haxan_poster</item>
+    </array>
+
+    <array name="force_majeure">
+        <item>Force Majeure</item>
+        <item>2014</item>
+        <item>While holidaying in the French Alps, a Swedish family deals with acts of cowardliness as an avalanche breaks out.</item>
+        <item>@drawable/force_majeure_fanart</item>
+        <item>@drawable/force_majeure_poster</item>
+    </array>
+
+    <array name="my_life_as_a_dog">
+        <item>My Life as a Dog</item>
+        <item>1985</item>
+        <item>A boy and his brother don\'t get along well. In order to let their ill mother rest, they are separated and sent to different relatives.</item>
+        <item>@drawable/my_life_as_a_dog_fanart</item>
+        <item>@drawable/my_life_as_a_dog_poster</item>
+    </array>
+
+    <array name="let_the_right_one_in">
+        <item>Let the Right One In</item>
+        <item>2008</item>
+        <item>Set in 1982 in the suburb of Blackeberg, Stockholm, twelve-year-old Oskar is a lonely outsider, bullied at school by his classmates; at home, Oskar dreams of revenge against a trio of bullies. He befriends his twelve-year-old, next-door neighbor Eli, who only appears at night in the snow-covered playground outside their building.</item>
+        <item>@drawable/let_the_right_one_in_fanart</item>
+        <item>@drawable/let_the_right_one_in_poster</item>
+    </array>
+
+    <array name="persona">
+        <item>Persona</item>
+        <item>1966</item>
+        <item>A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer. Alma eventually confesses her secrets to a seemingly sympathetic Elisabeth and finds that her own personality is being submerged into Elisabeth\'s persona.</item>
+        <item>@drawable/persona_fanart</item>
+        <item>@drawable/persona_poster</item>
+    </array>
+
+    <array name="show_me_love">
+        <item>Show Me Love</item>
+        <item>1998</item>
+        <item>Åmål is a small insignificant town where nothing ever happens, where the latest trends are out of date when they get there. Young Elin has a bit of a bad reputation when it comes to guys, but the fact is that she has never done *it*. Another girl in her school, Agnes, is in love with her but is too shy to do anything about it. For different reasons, Elin ends up at Agnes\' birthday party as the only guest. They have a girl\'s night out together but after that Elin desperately avoids Agnes, refusing to even consider her own homosexuality.</item>
+        <item>@drawable/show_me_love_fanart</item>
+        <item>@drawable/show_me_love_poster</item>
+    </array>
+
+
+    <array name="you_the_living">
+        <item>You, the Living</item>
+        <item>2007</item>
+        <item>In the Swedish city of Lethe, people from different walks of life take part in a series of short, deadpan vignettes that rush past. Some are just seconds long, none longer than a couple of minutes. A young woman (Jessica Lundberg) remembers a fantasy honeymoon with a rock guitarist. A man awakes from a dream about bomber planes. A businessman boasts about success while being robbed by a pickpocket and so on. The absurdist collection is accompanied by Dixieland jazz and similar music.</item>
+        <item>@drawable/you_the_living_fanart</item>
+        <item>@drawable/you_the_living_poster</item>
+    </array>
+
+    <array name="movies">
+        <item>@array/cops</item>
+        <item>@array/eat_sleep_die</item>
+        <item>@array/four_shades_of_brown</item>
+        <item>@array/haxan</item>
+        <item>@array/force_majeure</item>
+        <item>@array/let_the_right_one_in</item>
+        <item>@array/my_life_as_a_dog</item>
+        <item>@array/persona</item>
+        <item>@array/show_me_love</item>
+        <item>@array/you_the_living</item>
+    </array>
+
+</resources>
