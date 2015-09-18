@@ -68,7 +68,6 @@ public class MovieAdapter extends BaseAdapter {
         View rowView1 = new View(mContext);
         inflater = ( LayoutInflater )mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         rowView = inflater.inflate(R.layout.poster_title_year, null);
-        rowView1 = inflater.inflate(R.layout.fragment_master_screen, null);
         mProgressBar = (ProgressBar) rowView.findViewById(R.id.pbLoading);
 
         Movie movie = mMovie.get(position);
@@ -103,7 +102,7 @@ public class MovieAdapter extends BaseAdapter {
 
         @Override
         protected void onPreExecute() {
-            mProgressBar.setVisibility(ProgressBar.VISIBLE);
+            //mProgressBar.setVisibility(ProgressBar.VISIBLE);
         }
 
         @Override
@@ -140,7 +139,7 @@ public class MovieAdapter extends BaseAdapter {
         @Override
         protected void onPostExecute(Bitmap poster) {
             bmImage.setImageBitmap(poster);
-            mProgressBar.setVisibility(ProgressBar.INVISIBLE);
+            //mProgressBar.setVisibility(ProgressBar.INVISIBLE);
 
 
         }

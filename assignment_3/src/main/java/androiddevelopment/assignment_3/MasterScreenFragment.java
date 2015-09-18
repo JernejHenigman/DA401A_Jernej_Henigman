@@ -50,7 +50,7 @@ public class MasterScreenFragment extends Fragment {
         mAdapter = new MovieAdapter(v.getContext(), mMovies);
         GridView gridView = (GridView) v.findViewById(R.id.gridview);
         gridView.setAdapter(mAdapter);
-
+        mProgressBar = (ProgressBar) v.findViewById(R.id.pbLoading);
         new DownloadMovieInfo().execute("https://api-v2launch.trakt.tv/movies/popular?extended=images");
         DownloadMovieInfo dl = new DownloadMovieInfo();
         dl.execute("https://api-v2launch.trakt.tv/movies/popular?extended=images");
@@ -87,7 +87,7 @@ public class MasterScreenFragment extends Fragment {
 
         @Override
         protected void onPreExecute() {
-            
+            mProgressBar.setVisibility(ProgressBar.VISIBLE);
         }
 
         @Override
@@ -156,6 +156,7 @@ public class MasterScreenFragment extends Fragment {
         protected void onPostExecute(ArrayList<Movie> movies) {
             mMovies.addAll(movies);
             mAdapter.notifyDataSetChanged();
+            mProgressBar.setVisibility(ProgressBar.INVISIBLE);
 
 
 
