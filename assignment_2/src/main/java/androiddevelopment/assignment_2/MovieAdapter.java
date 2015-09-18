@@ -64,7 +64,6 @@ public class MovieAdapter extends BaseAdapter {
         TextView tw4 = (TextView) rowView.findViewById(R.id.textView4);
         tw4.setText(movie.title + "\n"+ movie.year);
 
-
         return rowView;
     }
 
