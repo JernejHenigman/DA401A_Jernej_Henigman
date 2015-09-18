@@ -10,30 +10,27 @@
         android:scaleType="centerCrop"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_alignParentBottom="true">
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:paddingLeft="16dp"
         android:paddingTop="16dp"
-        android:gravity="bottom"
-        android:layout_alignParentBottom="true"
+        android:ellipsize="end"
         android:background="#55000000"
         android:textColor="@android:color/white" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:paddingLeft="16dp"
         android:paddingBottom="16dp"
         android:layout_below="@id/textView4"
-
-        android:layout_alignParentBottom="true"
         android:textColor="@android:color/white"
         android:background="#55000000"
         />

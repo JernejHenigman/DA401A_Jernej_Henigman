@@ -26,6 +26,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.security.Permission;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
@@ -44,6 +45,7 @@ public class MovieAdapter extends BaseAdapter {
     public MovieAdapter(Context context,ArrayList<Movie> movies) {
         mContext = context;
         mMovie = movies;
+
 
     }
 
@@ -65,7 +67,6 @@ public class MovieAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View rowView = new View(mContext);
-        View rowView1 = new View(mContext);
         inflater = ( LayoutInflater )mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         rowView = inflater.inflate(R.layout.poster_title_year, null);
         mProgressBar = (ProgressBar) rowView.findViewById(R.id.pbLoading);
@@ -82,9 +83,9 @@ public class MovieAdapter extends BaseAdapter {
         DownloadMoviePoster dl = new DownloadMoviePoster((ImageView) rowView.findViewById(R.id.imageView1));
         dl.execute(movie.thumbNailLink);
 
-
         TextView tw4 = (TextView) rowView.findViewById(R.id.textView4);
         tw4.setText(movie.title);
+
         TextView tw5 = (TextView) rowView.findViewById(R.id.textView5);
         tw5.setText(movie.year);
 
@@ -95,6 +96,7 @@ public class MovieAdapter extends BaseAdapter {
 
 
         ImageView bmImage;
+
 
         public DownloadMoviePoster(ImageView bmImage) {
             this.bmImage = bmImage;
@@ -140,7 +142,7 @@ public class MovieAdapter extends BaseAdapter {
         protected void onPostExecute(Bitmap poster) {
             bmImage.setImageBitmap(poster);
             //mProgressBar.setVisibility(ProgressBar.INVISIBLE);
-
+            Log.i("Finished","YES");
 
         }
 
