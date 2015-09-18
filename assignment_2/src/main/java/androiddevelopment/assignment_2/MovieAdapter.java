@@ -62,7 +62,9 @@ public class MovieAdapter extends BaseAdapter {
         ImageView iw = (ImageView) rowView.findViewById(R.id.imageView1);
         iw.setImageDrawable(movie.poster);
         TextView tw4 = (TextView) rowView.findViewById(R.id.textView4);
-        tw4.setText(movie.title + "\n"+ movie.year);
+        tw4.setText(movie.title);
+        TextView tw5 = (TextView) rowView.findViewById(R.id.textView5);
+        tw5.setText(movie.year);
 
         return rowView;
     }

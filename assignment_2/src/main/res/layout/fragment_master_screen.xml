@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
 
     tools:context=".MainActivity" >
 
@@ -11,15 +10,14 @@
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:horizontalSpacing="5dp"
-        android:verticalSpacing="-10dp"
-        android:numColumns="2" >
-
-    </GridView>
-
+        android:padding="4dp"
+        android:verticalSpacing="4dp"
+        android:horizontalSpacing="4dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit" />
 
 
-</RelativeLayout>
+
+</FrameLayout>
 
 
