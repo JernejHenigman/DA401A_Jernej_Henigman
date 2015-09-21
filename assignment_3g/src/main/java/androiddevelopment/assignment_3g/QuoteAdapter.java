@@ -55,7 +55,7 @@ public class QuoteAdapter extends BaseAdapter {
             rowView = convertView;
         }
         ImageView iv1 = (ImageView) rowView.findViewById(R.id.imageView1);
-        iv1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.quote_icon));
+        iv1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.quote_icon2));
         TextView tw1 = (TextView) rowView.findViewById(R.id.textView1);
         tw1.setText(quote.quoteString);
         return rowView;
