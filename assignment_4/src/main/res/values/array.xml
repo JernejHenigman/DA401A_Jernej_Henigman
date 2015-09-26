@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quest_1">
+        <item>Michael Jordan</item>
+        <item>George Washington</item>
+        <item>Payton Manning</item>
+
+    </string-array>
+
+    <string-array name="quest_2">
+        <item>John Adams</item>
+        <item>Kevin Durant</item>
+        <item>Michael Fassbender</item>
+
+    </string-array>
+    <string-array name="quest_3">
+        <item>Andy Rodick</item>
+        <item>George Lucas</item>
+        <item>Thomas Jefferson</item>
+
+    </string-array>
+    <string-array name="quest_4">
+        <item>James Madison</item>
+        <item>Eli Manning</item>
+        <item>Sidney Crosby</item>
+
+    </string-array>
+</resources>
