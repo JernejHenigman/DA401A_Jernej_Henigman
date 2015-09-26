@@ -3,7 +3,11 @@
     <string name="title_activity_maps">Map</string>
 
 <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quest_1">Who was the fist president of the USA?</string>
+    <string name="quest_2">Who was the second president of the USA?</string>
+    <string name="quest_3">Who was the third president of the USA?</string>
+    <string name="quest_4">Who was the fourth president of the USA?</string>
+
 
 
 

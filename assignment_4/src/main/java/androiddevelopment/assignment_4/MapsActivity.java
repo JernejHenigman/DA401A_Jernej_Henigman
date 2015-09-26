@@ -1,7 +1,6 @@
 package androiddevelopment.assignment_4;
 
-import android.content.Context;
-import android.location.LocationManager;
+
 import android.media.MediaPlayer;
 import android.os.Vibrator;
 import android.support.v4.app.FragmentTransaction;
@@ -90,7 +89,7 @@ public class MapsActivity extends FragmentActivity implements GoogleApiClient.Co
         mUISetting.setMyLocationButtonEnabled(true);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(home));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
-        mMarker = mMap.addMarker(new MarkerOptions().position(mTh.getCurrentTreasureLocation()).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_close_white_48dp)));
+        mMarker = mMap.addMarker(new MarkerOptions().position(mTh.getCurrentTreasureLocation()).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_place_black_48dp)));
 
     }
 
@@ -102,8 +101,6 @@ public class MapsActivity extends FragmentActivity implements GoogleApiClient.Co
         mLocationRequest.setFastestInterval(5000);
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
-
-
     }
 
     @Override
@@ -147,18 +144,18 @@ public class MapsActivity extends FragmentActivity implements GoogleApiClient.Co
         //If answer is right --> continue
         else {
             toast = Toast.makeText(getApplicationContext(), "Right answer!!!", Toast.LENGTH_LONG);
-            //If it is last treasure point player win
+            //If it is last treasure_point ---> player win
             if (mTh.getTreasureFoundCounter() == mTh.N_TREASURES) {
                 toast = Toast.makeText(getApplicationContext(), "CONGRATULATIONS, YOU FOUND ALL TREASURES!!!", Toast.LENGTH_LONG);
                 mMap.clear();
                 playerAnswerd = false;
             }
-            //If it is right answer but not last treasure point spawn new treasure point
+            //If it is right answer but not last treasure_point ---> spawn new treasure_point
             else {
                 mMarker.remove();
                 mTh.incrementTreasureFoundCounter();
                 mTh.setCurrentTreasureLocation();
-                mMarker = mMap.addMarker(new MarkerOptions().position(mTh.getCurrentTreasureLocation()).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_close_white_48dp)));
+                mMarker = mMap.addMarker(new MarkerOptions().position(mTh.getCurrentTreasureLocation()).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_place_black_48dp)));
             }
         }
 
