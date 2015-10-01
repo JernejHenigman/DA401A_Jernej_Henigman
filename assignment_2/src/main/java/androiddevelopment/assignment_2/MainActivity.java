@@ -1,8 +1,8 @@
 package androiddevelopment.assignment_2;
 
+import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements MasterScreenFragm
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         if (findViewById(R.id.fragment_container) != null) {
 
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements MasterScreenFragm
 
             // Add the fragment to the 'fragment_container' FrameLayout
             getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, firstFragment).commit();
+
         }
 
     }

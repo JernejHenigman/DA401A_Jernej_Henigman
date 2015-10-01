@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/shade"
         android:layout_alignParentBottom="true">
         <TextView
             android:id="@+id/textView4"
@@ -22,7 +23,6 @@
             android:paddingTop="16dp"
             android:gravity="bottom"
             android:layout_alignParentBottom="true"
-            android:background="#55000000"
             android:textColor="@android:color/white" />
 
         <TextView
@@ -35,15 +35,8 @@
 
             android:layout_alignParentBottom="true"
             android:textColor="@android:color/white"
-            android:background="#55000000"
             android:textSize="14dp" />
     </LinearLayout>
-
-
-
-
-
-
 
 </RelativeLayout>
 

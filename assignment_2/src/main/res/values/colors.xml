@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <color name="default_color">#ffffff</color>
+    <color name="colorPrimary">#4285F4</color>
+    <color name="colorPrimaryDark">#3367D6</color>
+    <color name="shade">#50000000</color>
+
+</resources>
