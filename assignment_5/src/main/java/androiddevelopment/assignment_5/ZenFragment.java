@@ -182,7 +182,7 @@ public class ZenFragment extends Fragment {
 
         if (id == R.id.add) {
             mProgressBar.setVisibility(ProgressBar.VISIBLE);
-            new DownloadQuote().execute("https://api.github.com/zen?access_token=524a5a5de8e50188394b92d3b648450b1d5c3b03");
+            new DownloadQuote().execute("https://api.github.com/zen?access_token=1e0742d1ae90b53386bfd60acdbaf97b383b5228");
             return true;
         }
 
@@ -247,6 +247,7 @@ public class ZenFragment extends Fragment {
         }
         @Override
         protected void onPostExecute(ArrayList<Quote> quotes) {
+            Log.i("DL",""+quotes.size());
             mQuotes.addAll(quotes);
             mAdapter.notifyDataSetChanged();
             clickCounter += 1;

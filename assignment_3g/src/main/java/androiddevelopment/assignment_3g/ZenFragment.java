@@ -94,7 +94,7 @@ public class ZenFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v)  {
         mProgressBar.setVisibility(ProgressBar.VISIBLE);
-        new DownloadQuote().execute("https://api.github.com/zen?access_token=0f892e365071c7e778a020e463d715b8ccb816f5");
+        new DownloadQuote().execute("https://api.github.com/zen?access_token=1e0742d1ae90b53386bfd60acdbaf97b383b5228");
     }
 
     /**

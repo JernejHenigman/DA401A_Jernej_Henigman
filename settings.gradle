@@ -1,1 +1,1 @@
-include ':app', ':assignment_1', ':assignment_2', ':hellogridview', ':assignment_3', ':assignment_3g'
+include ':app', ':assignment_1', ':assignment_2', ':hellogridview', ':assignment_3', ':assignment_3g', ':assignment_4', ':assignment_5g', ':assignment_5h', ':assignment_5'
